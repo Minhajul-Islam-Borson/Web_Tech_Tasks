@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: rgb(135, 189, 237);
+  padding: 30px;
+  width: 40vw;
+  border-radius: 1rem;
+  border: none;
+}
+form select,button,input{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+}
+form input{
+    padding-left: 10px;
+}
+form button{
+  background-color: bisque;
+  cursor: pointer;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.msg_div{
+  background-color: whitesmoke;
+  height: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+
+
+
+
+
